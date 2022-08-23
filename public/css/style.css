@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #064635, #146356);
+}
+
+.navbar-register {
+    padding: 20px;
+}
+.home {
+    background-image: linear-gradient(to left, #064635, #146356);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.syarat {
+    background-color: #e2f5f1;
+}
+
+.footer {
+    background-color: #064635;
+}
+
+/* button */
+.d-grid .btn {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.home-text .d-grid .btn {
+    border-radius: 20px;
+    background-color: #cee5d0;
+    color: #146356;
+    border: none;
+    padding: 8px 25px;
+}
+.home-text .d-grid .btn:hover {
+    background-color: #5f7161;
+    color: #cee5d0;
+    padding: 8px 25px;
+}
+
+.btn-register1 {
+    padding: 10px 24px;
+    background-color: none;
+    color: black;
+    border: 2px solid #4caf50; /* Green */
+}
+/* akhir button */
+
+.text-alur {
+    color: #146356;
+}
+
+/* .card {
+    background-color: #f2f8f7;
+} */
+
+.card-text {
+    font-size: 12px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    border-radius: 2rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form-signin .button-signin {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #064635;
+}
+
+.form-register .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-register input[type="text"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register input[type="date"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register input[type="email"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register input[type="password"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register input[type="number"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register select[type="jenis-kelamin"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register input[type="file"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-register .button-register {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #064635;
+}
+
+.form-register .input-group-text {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.button-nav {
+    background-color: #cee5d0;
+    color: rgb(33, 34, 33);
+    border-radius: 20px;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+
+.button-nav:hover {
+    background-color: #6d8b74;
+}
+.button-nav2 {
+    background-color: #cee5d0;
+    color: rgb(33, 34, 33);
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+
+.button-nav2:hover {
+    background-color: #6d8b74;
+}
